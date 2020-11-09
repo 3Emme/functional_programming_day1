@@ -1,0 +1,24 @@
+{
+  "name": "functional_programming_day1",
+  "version": "1.0.0",
+  "description": "Counts number of coins in an amount of dollars and cents.",
+  "main": "application.js",
+  "type": "module",
+  "scripts": {
+    "build": "webpack --mode development",
+    "start": "npm run build; webpack-dev-server --open --mode development",
+    "lint": "eslint src/*.js",
+    "test": "jest --colors --coverage"
+  },
+  "author": "Emme Buentiempo and AJ Markow",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.3.0",
+    "jest": "^24.9.0",
+    "webpack": "4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
+}
